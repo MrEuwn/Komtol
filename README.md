@@ -1,0 +1,1 @@
+# Komtol Bapak Kau Pecah!!!!!
