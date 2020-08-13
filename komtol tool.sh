@@ -1,5 +1,5 @@
 #!/system/bin/bash
-#Copyright© 2020 By Fajar Firdaus
+#Copyright© 2020 By MrEuwn
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -109,7 +109,7 @@ done
 }
 
 tools(){
-    figlet -f slant "Wellcome Back" | lolcat
+    figlet -f slant "Djawa adalah Koentji" | lolcat
     echo -e $red"Note : Tools yang sudah di download akan masuk ke folder tools"
     echo -e $white "[U] > Update"
     echo -e $blue "[1] > knowyourself"
@@ -160,7 +160,7 @@ tools(){
     echo -e $red "[0] > Exit"
     read -p "[?] root@KomtolBapakKauPetjah-# " user
 
-    mygit="https://github.com/FajarTheGGman/"
+    mygit="https://github.com/MrEuwn/"
 
     if [ $user == "1" ]; then
         echo "";
@@ -302,7 +302,7 @@ tools(){
         mv -f Striker tools
     elif [ $user == "U" ]; then
         git pull
-        echo -e $green"[+] F-Tools updated";
+        echo -e $green"[+] Kontol anda sudah diperbarui";
     elif [ $user == "0" ]; then
         echo -e $red"[!] Exit";
     fi
